@@ -1,4 +1,4 @@
-# my-portfolio
+# main-screen
 
 ## Project setup
 ```

@@ -1,19 +1,19 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld/>
+    <v-main class="app">
+      <MainScreen />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainScreen from './components/main-screen.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    MainScreen,
   },
 
   data: () => ({
@@ -21,3 +21,10 @@ export default {
   }),
 }
 </script>
+
+<style scoped>
+.app {
+  display: flex;
+  justify-content: center;
+}
+</style>
