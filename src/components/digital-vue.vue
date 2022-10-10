@@ -21,6 +21,7 @@ export default {
             {
                 src: "/img/stable-card.png",
                 gradient: "linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%)",
+                position: 77,
                 header: "Стабильная лидогенерация в кризис",
                 text: [
                     "SEO-продвижение + Контекстная реклама",
@@ -31,6 +32,7 @@ export default {
             {
                 src: "/img/detection-card.png",
                 gradient: "linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.8%)",
+                position: 88,
                 header: "Стабильная лидогенерация в кризис",
                 text: [
                     "SEO-продвижение + Управление репутацией",
@@ -41,6 +43,7 @@ export default {
             {
                 src: "/img/blocking-card.png",
                 gradient: "linear-gradient(360deg, #333333 12.65%, rgba(51, 51, 51, 0) 97.54%)",
+                position: 6,
                 header: "Стабильная лидогенерация в кризис",
                 text: [
                     "SEO-продвижение + Таргет + Маркетплейсы",
@@ -61,7 +64,7 @@ export default {
     display: flex;
     flex-direction: column;
     margin-top: 120px;
-    margin: 0 200px;
+    margin: 0 12.5%;
     width: 100%;
 }
 .text {

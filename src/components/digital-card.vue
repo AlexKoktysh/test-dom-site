@@ -24,7 +24,7 @@ const Wrapper = styled("div", WrapperProps)`
 .v-card {
     background: url(${({ srcImg }) => (srcImg.src)});
     background-size: cover !important;
-    background-position-x: 77% !important;
+    background-position-x: ${({ srcImg }) => (srcImg.position)}% !important;
     backdrop-filter: blur(1px);
     .content {
         background: ${({ srcImg }) => (srcImg.gradient)};
@@ -39,7 +39,7 @@ export default {
         cardItem: Object,
     },
     setup(props) {
-        const srcImg = ref({src: props.cardItem.src, gradient: props.cardItem.gradient});
+        const srcImg = ref({src: props.cardItem.src, gradient: props.cardItem.gradient, position: props.cardItem.position});
         return {
             srcImg,
         }

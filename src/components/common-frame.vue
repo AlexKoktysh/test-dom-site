@@ -21,24 +21,9 @@
         <div class="navbar items">
             <div v-for="(item, i) in items" :key="i">
                 <v-btn flat small>
-                    <div v-if="item === 'Увеличение продаж'">
-                        <v-list @click.stop>
-                            <v-list-group :value="true" @click.stop no-action>
-                                <template v-slot:activator>
-                                    <v-list-item-content class="select">
-                                        <v-list-item-title class="text mr-1" @click.stop>{{item}}</v-list-item-title>
-                                        <v-img contain width="10" height="5" src="/img/select.svg"></v-img>
-                                    </v-list-item-content>
-                                </template>
-                                <v-list-item
-                                    v-for="(item, i) in selectItems"
-                                    :key="i"
-                                    link
-                                >
-                                    <v-list-item-title class="text mr-1" v-text="item"></v-list-item-title>
-                                </v-list-item>
-                            </v-list-group>
-                        </v-list>
+                    <div class="title-select" v-if="item === 'Увеличение продаж'">
+                        <div class="text">{{item}}</div>
+                        <v-img class="ml-1" contain width="10" height="5" src="/img/select.svg"></v-img>
                     </div>
                     <div v-else class="text">{{item}}</div>
                 </v-btn>
@@ -108,6 +93,10 @@ export default {
     .items {
         height: 80px;
         flex-wrap: wrap;
+    }
+    .title-select {
+        display: flex;
+        align-items: center;
     }
     .text {
         font-family: 'Montserrat';

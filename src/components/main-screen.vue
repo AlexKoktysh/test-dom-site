@@ -34,16 +34,14 @@ export default {
     BenefitsBlock,
     BasementFrame,
   },
-  setup() {},
 }
 </script>
 
 <style scoped lang="scss">
 .main {
-  max-width: 1600px;
   .main-screen {
     display: flex;
-    margin: 0 200px;
+    margin: 0 12.5%;
   }
   .navbar {
     display: flex;
@@ -51,7 +49,7 @@ export default {
     flex-direction: column;
   }
   .img {
-    width: 1600px;
+    width: 100%;
     height: 716px;
     display: flex;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.025) 62.79%), url("/public/img/main-img.png");
@@ -67,7 +65,7 @@ export default {
   .benefits {
     width: 75%;
     flex-wrap: wrap;
-    margin: 121px 200px 120px;
+    margin: 121px 12.5% 120px;
   }
   .basement {
     width: 100%;

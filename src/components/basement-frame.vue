@@ -139,22 +139,22 @@ export default {
             font-weight: 700;
             font-size: 38px;
             line-height: 120%;
-            margin-left: 346px;
+            margin-left: 21.6%;
         }
         .item {
             height: 66px;
             width: 908px;
             text-align: center;
-            margin-left: 320px;
+            margin-left: 20%;
             font-size: 16px;
             font-weight: 500;
             line-height: 22px;
             letter-spacing: 0em;
         }
         .v-form {
-            margin-left: 485px;
+            margin-left: 30%;
             height: 357px;
-            width: 630px;
+            max-width: 630px;
             border-radius: 0px;
             background-color: #F4F4F4;
             color: rgba(51, 51, 51, 0.5);
@@ -216,15 +216,15 @@ export default {
     }
 }
 .bottom {
-    height: 583px;
+    min-height: 583px;
     background-color: #333333;
     .bottom-block {
-        height: 532px;
+        min-height: 532px;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 100px 200px 0;
+        padding: 100px 12.5% 0;
         .info {
             width: 16%;
             .logo {
@@ -338,7 +338,7 @@ export default {
     .label {
         display: flex;
         justify-content: space-between;
-        margin: 20px 200px 16px;
+        margin: 20px 12.5% 16px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -351,9 +351,9 @@ export default {
 .v-divider {
     position: absolute;
     bottom: 50px;
-    width: 1200px;
+    width: 75%;
     background-color: #FFFFFF;
     opacity: 0.1;
-    margin: 0 200px;
+    margin: 0 12.5%;
 }
 </style>

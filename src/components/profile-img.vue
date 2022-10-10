@@ -9,14 +9,6 @@
     </div> 
 </template>
 
-<script>
-export default {
-    setup() {
-        
-    },
-}
-</script>
-
 <style scoped lang="scss">
 .text-img {
     display: flex;
@@ -24,7 +16,7 @@ export default {
     width: 780px;
     height: 150px;
     margin-top: 170px;
-    margin-left: 200px;
+    margin-left: 12.5%;
     font-family: 'Montserrat';
     color: #FFFFFF;
     .start-text {

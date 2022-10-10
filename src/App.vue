@@ -1,6 +1,6 @@
 <template>
-  <v-app>
-    <v-main class="app">
+  <v-app class="app">
+    <v-main>
       <MainScreen />
     </v-main>
   </v-app>
@@ -15,14 +15,10 @@ export default {
   components: {
     MainScreen,
   },
-
-  data: () => ({
-    //
-  }),
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .app {
   display: flex;
   justify-content: center;
