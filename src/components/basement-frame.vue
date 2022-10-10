@@ -27,7 +27,7 @@
         <div class="bottom-block">
             <div class="info">
                 <div class="logo">
-                    <v-img contain width="42.96" height="48" src="/img/logo-bottom.svg"></v-img>
+                    <v-img contain width="42.96" height="48" src="/test-dom-site/img/logo-bottom.svg"></v-img>
                     <div class="logo-content">
                         <div class="text top-text-logo">ДОМ САЙТОВ</div>
                         <div class="text bottom-text-logo">УВЕЛИЧЕНИЕ ПРОДАЖ</div>
@@ -45,8 +45,8 @@
                     <p>ОГРН 123456789010</p>
                 </div>
                 <div class="social">
-                    <v-img contain width="40" height="40" src="/img/vk.svg"></v-img>
-                    <v-img class="ml-5" contain width="40" height="40" src="/img/tg.svg"></v-img>
+                    <v-img contain width="40" height="40" src="/test-dom-site/img/vk.svg"></v-img>
+                    <v-img class="ml-5" contain width="40" height="40" src="/test-dom-site/img/tg.svg"></v-img>
                 </div>
             </div>
             <div class="business-block">

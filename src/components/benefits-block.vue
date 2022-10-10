@@ -19,27 +19,27 @@ export default {
         const itemsCard = ref([
             {
                 text: "Увеличиваем продажи, звонки и заявки с Вашего сайта",
-                icon: "/img/increase-sales.svg",
+                icon: "/test-dom-site/img/increase-sales.svg",
             },
             {
                 text: "Используем современные технологии и собственные разработки",
-                icon: "/img/modern-technologies.svg",
+                icon: "/test-dom-site/img/modern-technologies.svg",
             },
             {
                 text: "Всегда оправдываем ожидания наших Клиентов",
-                icon: "/img/customer-waiting.svg",
+                icon: "/test-dom-site/img/customer-waiting.svg",
             },
             {
                 text: "Более 100 благодарственных писем от Клиентов",
-                icon: "/img/letter-icon.svg",
+                icon: "/test-dom-site/img/letter-icon.svg",
             },
             {
                 text: "Безупречная репутация на digital-рынке",
-                icon: "/img/reputation-icon.svg",
+                icon: "/test-dom-site/img/reputation-icon.svg",
             },
             {
                 text: "Помогаем достигать имиджевых и финансовых целей",
-                icon: "/img/achievements-goals-icon.svg",
+                icon: "/test-dom-site/img/achievements-goals-icon.svg",
             },
         ]);
         return {

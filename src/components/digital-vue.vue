@@ -19,7 +19,7 @@ export default {
     setup() {
         const cardItems = ref([
             {
-                src: "/img/stable-card.png",
+                src: "/test-dom-site/img/stable-card.png",
                 gradient: "linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.98%)",
                 position: 77,
                 header: "Стабильная лидогенерация в кризис",
@@ -30,7 +30,7 @@ export default {
                 ],
             },
             {
-                src: "/img/detection-card.png",
+                src: "/test-dom-site/img/detection-card.png",
                 gradient: "linear-gradient(180deg, rgba(51, 51, 51, 0) 0%, #333333 86.8%)",
                 position: 88,
                 header: "Стабильная лидогенерация в кризис",
@@ -41,7 +41,7 @@ export default {
                 ],
             },
             {
-                src: "/img/blocking-card.png",
+                src: "/test-dom-site/img/blocking-card.png",
                 gradient: "linear-gradient(360deg, #333333 12.65%, rgba(51, 51, 51, 0) 97.54%)",
                 position: 6,
                 header: "Стабильная лидогенерация в кризис",

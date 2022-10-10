@@ -2,7 +2,7 @@
     <div class="screen">
         <div class="navbar header">
             <div class="logo">
-                <v-img contain width="42.96" height="48" src="/img/logo.svg"></v-img>
+                <v-img contain width="42.96" height="48" src="/test-dom-site/img/logo.svg"></v-img>
                 <div class="logo-content">
                     <div class="text top-text-logo">ДОМ САЙТОВ</div>
                     <div class="text bottom-text-logo">УВЕЛИЧЕНИЕ ПРОДАЖ</div>
@@ -12,7 +12,7 @@
             <div class="text phone-text">+7 (4872) 79-29-10</div>
             <v-btn color="white" class="btn-call">
                 <div class="phone-logo">
-                    <v-img contain width="20" height="20" src="/img/phone.svg"></v-img>
+                    <v-img contain width="20" height="20" src="/test-dom-site/img/phone.svg"></v-img>
                     <div class="text phone-text-logo ml-2">Заказать звонок</div>
                 </div>
             </v-btn>
@@ -23,12 +23,12 @@
                 <v-btn flat small>
                     <div class="title-select" v-if="item === 'Увеличение продаж'">
                         <div class="text">{{item}}</div>
-                        <v-img class="ml-1" contain width="10" height="5" src="/img/select.svg"></v-img>
+                        <v-img class="ml-1" contain width="10" height="5" src="/test-dom-site/img/select.svg"></v-img>
                     </div>
                     <div v-else class="text">{{item}}</div>
                 </v-btn>
             </div>
-            <v-img contain width="24" height="24" src="/img/search.svg"></v-img>
+            <v-img contain width="24" height="24" src="/test-dom-site/img/search.svg"></v-img>
         </div>
     </div>
 </template>
